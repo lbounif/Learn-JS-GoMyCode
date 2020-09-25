@@ -27,4 +27,16 @@ function division(a, b) {
 function fullName(firstName, lastName) {
   return firstName + " " + lastName
 }
-console.log(fullName("Lies", "Nabi"))
+// console.log(fullName("Lies", "Nabi"))
+
+//conditions
+function checkIfNumber(x) {
+  console.log("Le type de la variable est: ", typeof x)
+  if (typeof x === "number") {
+    console.log(x + " is a number.")
+  } else {
+    console.log(x + " is not a number.")
+  }
+}
+checkIfNumber(5)
+checkIfNumber("hello")
