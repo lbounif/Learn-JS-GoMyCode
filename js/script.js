@@ -4,16 +4,27 @@ function addition(a, b) {
   return result
 }
 //Function call
-let som1 = addition(4, 3)
-console.log(som1)
-let som2 = addition(5, 6)
-console.log(som2)
+// let som1 = addition(4, 3)
+// console.log(som1)
+// let som2 = addition(5, 6)
+// console.log(som2)
 
 //Function Substract
-function substract() {}
+function substract(a, b) {
+  return a - b
+}
+// console.log(substract(10, 4))
 
 //Function Division
-function division() {}
+function division(a, b) {
+  if (b === 0) return "b must be different then zero"
+  else return a / b
+}
+// console.log(division(10, 5))
+// console.log(division(10, 0))
 
 //Function returning fullName
-function fullName() {}
+function fullName(firstName, lastName) {
+  return firstName + " " + lastName
+}
+console.log(fullName("Lies", "Nabi"))
